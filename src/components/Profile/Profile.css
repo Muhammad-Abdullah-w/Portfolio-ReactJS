@@ -1,0 +1,100 @@
+.profile {
+    background-color: 'white' !important;
+    border-radius: 6px;
+    width: 100%;
+    display: inline-block;
+}
+
+.profileName  {
+    line-height: 10px;
+    padding: 20px;
+}
+
+.profileName .name {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.profileName .title {
+    font-size: 13px;
+    color: #777 ;
+}
+
+.profileImage{
+    margin-top: -10px;
+    -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+}
+
+.profileImage img{
+    width: 100%;
+    height: 10%;;
+}
+
+.timeline_dot_header2 {
+    color: black !important;
+    background-color: white !important; /* White inside */
+    border: 2px solid rgba(41, 5, 245, 0.966) !important; /* Yellow outline */
+    padding: 5px;
+    padding-top: 8px;
+    
+}
+
+
+
+.TS2 .MuiTimelineConnector-root {
+    min-height: 30px !important;
+    display: grid !important;
+  }
+
+.MuiTimelineItem-missingOppositeContent:before {
+    display: none !important;
+}
+
+.timeline_dot_header2 > .MuiSvgIcon-root {
+    color: darkslategray;
+    font-size: 20px;
+}
+
+
+.TS2{
+    margin-left: 11px !important;
+}
+
+
+.ProfileInformation{
+    top: 0;
+    left: 0;
+    margin: -38px 10px 30px;
+    
+}
+
+.ProfileInformation .TimelineContent{
+    margin-top:4px;
+    margin-bottom: 12px;
+
+}
+
+.TimelineContent .TimelineItem_text{
+    font-size: 14.5px !important;
+    font-weight: 400 !important;
+    color: #787878;
+}
+
+.TimelineContent .TimelineItem_text > span{
+    color: black;
+}
+
+.TimelineItem_text > a{
+    text-decoration: none;
+}
+
+.profile .buttonContainer{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
